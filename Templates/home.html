@@ -1,0 +1,11 @@
+<H1> Ayo's Word Counter  </H1>
+
+<a href="{% url 'about'%}">Visit Our About Page </a>
+
+
+<form action = "{% url 'count' %}">
+
+  <textarea cols= "40" rows = "10" name="fulltext"></textarea>
+  <br />
+  <input type = "submit" value= "Count!" /> 
+</form>
